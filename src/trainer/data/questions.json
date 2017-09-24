@@ -1,0 +1,142 @@
+{
+  "questions": [
+    {
+      "id" : 1,
+      "question": "What method you should override to use Android’s menu which is placed on the action bar",
+      "answers": [
+        {
+          "id": "A",
+          "answer": "onCreateOptionsMenu()"
+        },
+        {
+          "id": "B",
+          "answer": "onCreateMenu()"
+        },
+        {
+          "id": "C",
+          "answer": "onMenuCreated()"
+        },
+        {
+          "id": "D",
+          "answer": "onMenuLoaded()"
+        }
+      ],
+      "correctId": "A"
+    },
+    {
+      "id" : 2,
+      "question": "What Activity method you use to retrieve a reference to an Android view by using the id",
+      "answers": [
+        {
+          "id": "A",
+          "answer": "findViewByReference(int id)"
+        },
+        {
+          "id": "B",
+          "answer": "findViewById(int id)"
+        },
+        {
+          "id": "C",
+          "answer": "retrieveResourceById(int id)"
+        },
+        {
+          "id": "D",
+          "answer": "findViewById(String id)"
+        }
+      ],
+      "correctId": "B"
+    },
+    {
+      "id" : 3,
+      "question": "Which of the following is not an Android component (i.e. a point from which the system can enter your application)?",
+      "answers": [
+        {
+          "id": "A",
+          "answer": "Service"
+        },
+        {
+          "id": "B",
+          "answer": "Activity"
+        },
+        {
+          "id": "C",
+          "answer": "Layout"
+        },
+        {
+          "id": "D",
+          "answer": "Content Provider"
+        }
+      ],
+      "correctId": "C"
+    },
+    {
+      "id" : 4,
+      "question": "During an Activity life-cycle, what is the first callback method invoked by the system?",
+      "answers": [
+        {
+          "id": "A",
+          "answer": "onStop()"
+        },
+        {
+          "id": "B",
+          "answer": "onStart()"
+        },
+        {
+          "id": "C",
+          "answer": "onCreate()"
+        },
+        {
+          "id": "D",
+          "answer": "onRestore()"
+        }
+      ],
+      "correctId": "C"
+    },
+    {
+      "id" : 5,
+      "question": "Which configuration file holds the permission to use the internet?",
+      "answers": [
+        {
+          "id": "A",
+          "answer": "Layout file"
+        },
+        {
+          "id": "B",
+          "answer": "Property file"
+        },
+        {
+          "id": "C",
+          "answer": "Java source file"
+        },
+        {
+          "id": "D",
+          "answer": "Manifest file"
+        }
+      ],
+      "correctId": "D"
+    },
+    {
+      "id" : 6,
+      "question": "What does the following line of code achieve? \nIntent intent = new Intent(FirstActivity.this, SecondActivity.class );",
+      "answers": [
+        {
+          "id": "A",
+          "answer": "Creates a hidden Intent."
+        },
+        {
+          "id": "B",
+          "answer": "Creates an implicit Intent."
+        },
+        {
+          "id": "C",
+          "answer": "Create an explicit Intent."
+        },
+        {
+          "id": "D",
+          "answer": "Starts an activity."
+        }
+      ],
+      "correctId": "C"
+    }
+  ]
+}
